@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42DBCC2619AC20BB00CE6C93"
                BuildableName = "speeddate.app"
-               BlueprintName = "speeddate"
-               ReferencedContainer = "container:speeddate.xcodeproj">
+               BlueprintName = "PuppyDate"
+               ReferencedContainer = "container:PuppyDate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DBCC2619AC20BB00CE6C93"
             BuildableName = "speeddate.app"
-            BlueprintName = "speeddate"
-            ReferencedContainer = "container:speeddate.xcodeproj">
+            BlueprintName = "PuppyDate"
+            ReferencedContainer = "container:PuppyDate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,8 +57,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DBCC2619AC20BB00CE6C93"
             BuildableName = "speeddate.app"
-            BlueprintName = "speeddate"
-            ReferencedContainer = "container:speeddate.xcodeproj">
+            BlueprintName = "PuppyDate"
+            ReferencedContainer = "container:PuppyDate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,8 +76,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DBCC2619AC20BB00CE6C93"
             BuildableName = "speeddate.app"
-            BlueprintName = "speeddate"
-            ReferencedContainer = "container:speeddate.xcodeproj">
+            BlueprintName = "PuppyDate"
+            ReferencedContainer = "container:PuppyDate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

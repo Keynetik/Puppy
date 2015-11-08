@@ -223,14 +223,14 @@
 		4283BD8519BCB83A00AD1F63 /* Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Report.m; path = Model/Report.m; sourceTree = "<group>"; };
 		42BD2AFC19AE5A1B00FCC817 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserTableViewCell.h; path = View/UserTableViewCell.h; sourceTree = "<group>"; };
 		42BD2AFD19AE5A1B00FCC817 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserTableViewCell.m; path = View/UserTableViewCell.m; sourceTree = "<group>"; };
-		42DBCC2719AC20BB00CE6C93 /* speeddate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speeddate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DBCC2719AC20BB00CE6C93 /* PuppyDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuppyDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DBCC2A19AC20BB00CE6C93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42DBCC2C19AC20BB00CE6C93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		42DBCC2E19AC20BB00CE6C93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		42DBCC3219AC20BB00CE6C93 /* speeddate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "speeddate-Info.plist"; sourceTree = "<group>"; };
+		42DBCC3219AC20BB00CE6C93 /* PuppyDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuppyDate-Info.plist"; sourceTree = "<group>"; };
 		42DBCC3419AC20BB00CE6C93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42DBCC3619AC20BB00CE6C93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42DBCC3819AC20BB00CE6C93 /* speeddate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "speeddate-Prefix.pch"; sourceTree = "<group>"; };
+		42DBCC3819AC20BB00CE6C93 /* PuppyDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PuppyDate-Prefix.pch"; sourceTree = "<group>"; };
 		42DBCC3919AC20BB00CE6C93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42DBCC3A19AC20BB00CE6C93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42DBCC4219AC20BB00CE6C93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -530,7 +530,7 @@
 		42DBCC2819AC20BB00CE6C93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42DBCC2719AC20BB00CE6C93 /* speeddate.app */,
+				42DBCC2719AC20BB00CE6C93 /* PuppyDate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -595,11 +595,11 @@
 				C20F0B1719D7CE72005958C0 /* Images */,
 				42DBCC3919AC20BB00CE6C93 /* AppDelegate.h */,
 				42DBCC3A19AC20BB00CE6C93 /* AppDelegate.m */,
-				42DBCC3219AC20BB00CE6C93 /* speeddate-Info.plist */,
+				42DBCC3219AC20BB00CE6C93 /* PuppyDate-Info.plist */,
 				42DBCC3319AC20BB00CE6C93 /* InfoPlist.strings */,
 				C25E766A19EF9C0C00779C23 /* Localizable.strings */,
 				42DBCC3619AC20BB00CE6C93 /* main.m */,
-				42DBCC3819AC20BB00CE6C93 /* speeddate-Prefix.pch */,
+				42DBCC3819AC20BB00CE6C93 /* PuppyDate-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -987,9 +987,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42DBCC2619AC20BB00CE6C93 /* speeddate */ = {
+		42DBCC2619AC20BB00CE6C93 /* PuppyDate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42DBCC5919AC20BB00CE6C93 /* Build configuration list for PBXNativeTarget "speeddate" */;
+			buildConfigurationList = 42DBCC5919AC20BB00CE6C93 /* Build configuration list for PBXNativeTarget "PuppyDate" */;
 			buildPhases = (
 				42DBCC2319AC20BB00CE6C93 /* Sources */,
 				42DBCC2419AC20BB00CE6C93 /* Frameworks */,
@@ -999,9 +999,9 @@
 			);
 			dependencies = (
 			);
-			name = speeddate;
+			name = PuppyDate;
 			productName = Tinder;
-			productReference = 42DBCC2719AC20BB00CE6C93 /* speeddate.app */;
+			productReference = 42DBCC2719AC20BB00CE6C93 /* PuppyDate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1018,7 +1018,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42DBCC2219AC20BB00CE6C93 /* Build configuration list for PBXProject "speeddate" */;
+			buildConfigurationList = 42DBCC2219AC20BB00CE6C93 /* Build configuration list for PBXProject "PuppyDate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1031,7 +1031,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42DBCC2619AC20BB00CE6C93 /* speeddate */,
+				42DBCC2619AC20BB00CE6C93 /* PuppyDate */,
 			);
 		};
 /* End PBXProject section */
@@ -1300,9 +1300,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "speeddate/speeddate-Prefix.pch";
+				GCC_PREFIX_HEADER = "speeddate/PuppyDate-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "speeddate/speeddate-Info.plist";
+				INFOPLIST_FILE = "speeddate/PuppyDate-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/speeddate",
@@ -1313,7 +1313,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = puppydate;
-				PRODUCT_NAME = speeddate;
+				PRODUCT_NAME = PuppyDate;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1332,9 +1332,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "speeddate/speeddate-Prefix.pch";
+				GCC_PREFIX_HEADER = "speeddate/PuppyDate-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "speeddate/speeddate-Info.plist";
+				INFOPLIST_FILE = "speeddate/PuppyDate-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/speeddate",
@@ -1345,7 +1345,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = puppydate;
-				PRODUCT_NAME = speeddate;
+				PRODUCT_NAME = PuppyDate;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1354,7 +1354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42DBCC2219AC20BB00CE6C93 /* Build configuration list for PBXProject "speeddate" */ = {
+		42DBCC2219AC20BB00CE6C93 /* Build configuration list for PBXProject "PuppyDate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42DBCC5719AC20BB00CE6C93 /* Debug */,
@@ -1363,7 +1363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42DBCC5919AC20BB00CE6C93 /* Build configuration list for PBXNativeTarget "speeddate" */ = {
+		42DBCC5919AC20BB00CE6C93 /* Build configuration list for PBXNativeTarget "PuppyDate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42DBCC5A19AC20BB00CE6C93 /* Debug */,
